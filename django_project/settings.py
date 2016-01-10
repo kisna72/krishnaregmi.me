@@ -36,6 +36,12 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Third Party Apps
+
+
+    # Custom Apps
+    'krishnaregmi_me',
 )
 
 MIDDLEWARE_CLASSES = (
