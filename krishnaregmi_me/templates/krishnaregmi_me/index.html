@@ -41,6 +41,14 @@
         .navbar-default .navbar-brand{
             color: #FFF;
         }
+
+        .intro-section{
+            background-color: #933E31;
+        }
+        .profile-pic{
+            width: 200px;
+            height: auto;
+        }
     </style>
 
 </head>
@@ -59,7 +67,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Krishna Regmi</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -90,9 +98,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                    
+                    <img src="{% static 'krishnaregmi_me/krishna.jpg' %}" alt="Cannot find the image." class="img-circle profile-pic">
+                    <h3>Mechanical Engineer - Programmer - Problem Solver</h3>
+                    <p>I am educated in Mechanical Engineering, but equally love programming. I am a problem solver. I love talking to people in different professions, finding what problems they have, and finding a solution to the problem.</p>
+                    <p>Have a <strong>problem</strong> that can benefit from someone who has deep understanding of both <strong>software and harware</strong>? Contact me for free consulatation. I would love you help you get started.</p>
+                    <a class="btn btn-default page-scroll" href="#about">See my Work!</a>
                 </div>
             </div>
         </div>
