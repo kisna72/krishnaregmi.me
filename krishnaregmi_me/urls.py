@@ -11,4 +11,8 @@ urlpatterns = patterns('',
     #url(r'^admin/', include(admin.site.urls)),
     #url(r'^', include('krishnaregmi_me.urls')),
 
+    # HomePage
+    url(r'^$', 'krishnaregmi_me.views.home', name='home'),
+
+
 )
